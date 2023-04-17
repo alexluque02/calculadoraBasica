@@ -47,6 +47,13 @@ public class Principal {
 				n2=Double.parseDouble(sc.nextLine());
 				System.out.println("La division de "+n1+" / "+n2+" es: "+(n1/n2));
 				break;
+			case 5:
+				System.out.println("Diga un número");
+				n1=Double.parseDouble(sc.nextLine());
+				System.out.println("Diga otro número");
+				n2=Double.parseDouble(sc.nextLine());
+				System.out.println("El resto de "+n1+" % "+n2+" es: "+(n1%n2));
+				break;
 			}
 		}while(menu!=0);
 	}
