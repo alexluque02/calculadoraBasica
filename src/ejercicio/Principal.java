@@ -33,6 +33,12 @@ public class Principal {
 				n2=Double.parseDouble(sc.nextLine());
 				System.out.println("La resta es: "+(n1-n2));
 				break;
+			case 3:
+				System.out.println("Diga un número");
+				n1=Double.parseDouble(sc.nextLine());
+				System.out.println("Diga otro número");
+				n2=Double.parseDouble(sc.nextLine());
+				System.out.println("La multiplicacion de "+n1+" * "+n2+" es: "+(n1*n2));
 			}
 		}while(menu!=0);
 	}
