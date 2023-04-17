@@ -54,6 +54,8 @@ public class Principal {
 				n2=Double.parseDouble(sc.nextLine());
 				System.out.println("El resto de "+n1+" % "+n2+" es: "+(n1%n2));
 				break;
+			case 0:
+				break;
 			}
 		}while(menu!=0);
 	}
