@@ -26,6 +26,13 @@ public class Principal {
 				n2=Double.parseDouble(sc.nextLine());
 				System.out.println("La suma es: "+(n1+n2));
 				break;
+			case 2:
+				System.out.println("Diga un número");
+				n1=Double.parseDouble(sc.nextLine());
+				System.out.println("Diga otro número");
+				n2=Double.parseDouble(sc.nextLine());
+				System.out.println("La resta es: "+(n1-n2));
+				break;
 			}
 		}while(menu!=0);
 	}
